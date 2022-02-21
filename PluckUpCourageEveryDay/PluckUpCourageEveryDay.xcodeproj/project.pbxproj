@@ -1,0 +1,646 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D4A5192427C3E93A007675BA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4A5192327C3E93A007675BA /* AppDelegate.swift */; };
+		D4A5192627C3E93A007675BA /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4A5192527C3E93A007675BA /* SceneDelegate.swift */; };
+		D4A5192827C3E93A007675BA /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4A5192727C3E93A007675BA /* ViewController.swift */; };
+		D4A5192B27C3E93A007675BA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D4A5192927C3E93A007675BA /* Main.storyboard */; };
+		D4A5192E27C3E93A007675BA /* PluckUpCourageEveryDay.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = D4A5192C27C3E93A007675BA /* PluckUpCourageEveryDay.xcdatamodeld */; };
+		D4A5193027C3E93B007675BA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D4A5192F27C3E93B007675BA /* Assets.xcassets */; };
+		D4A5193327C3E93B007675BA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D4A5193127C3E93B007675BA /* LaunchScreen.storyboard */; };
+		D4A5193E27C3E93B007675BA /* PluckUpCourageEveryDayTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4A5193D27C3E93B007675BA /* PluckUpCourageEveryDayTests.swift */; };
+		D4A5194827C3E93B007675BA /* PluckUpCourageEveryDayUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4A5194727C3E93B007675BA /* PluckUpCourageEveryDayUITests.swift */; };
+		D4A5194A27C3E93B007675BA /* PluckUpCourageEveryDayUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4A5194927C3E93B007675BA /* PluckUpCourageEveryDayUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		D4A5193A27C3E93B007675BA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D4A5191827C3E93A007675BA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D4A5191F27C3E93A007675BA;
+			remoteInfo = PluckUpCourageEveryDay;
+		};
+		D4A5194427C3E93B007675BA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D4A5191827C3E93A007675BA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D4A5191F27C3E93A007675BA;
+			remoteInfo = PluckUpCourageEveryDay;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		D4A5192027C3E93A007675BA /* PluckUpCourageEveryDay.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PluckUpCourageEveryDay.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D4A5192327C3E93A007675BA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		D4A5192527C3E93A007675BA /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		D4A5192727C3E93A007675BA /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		D4A5192A27C3E93A007675BA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		D4A5192D27C3E93A007675BA /* PluckUpCourageEveryDay.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = PluckUpCourageEveryDay.xcdatamodel; sourceTree = "<group>"; };
+		D4A5192F27C3E93B007675BA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D4A5193227C3E93B007675BA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		D4A5193427C3E93B007675BA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D4A5193927C3E93B007675BA /* PluckUpCourageEveryDayTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PluckUpCourageEveryDayTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D4A5193D27C3E93B007675BA /* PluckUpCourageEveryDayTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PluckUpCourageEveryDayTests.swift; sourceTree = "<group>"; };
+		D4A5194327C3E93B007675BA /* PluckUpCourageEveryDayUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PluckUpCourageEveryDayUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D4A5194727C3E93B007675BA /* PluckUpCourageEveryDayUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PluckUpCourageEveryDayUITests.swift; sourceTree = "<group>"; };
+		D4A5194927C3E93B007675BA /* PluckUpCourageEveryDayUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PluckUpCourageEveryDayUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D4A5191D27C3E93A007675BA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D4A5193627C3E93B007675BA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D4A5194027C3E93B007675BA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D4A5191727C3E93A007675BA = {
+			isa = PBXGroup;
+			children = (
+				D4A5192227C3E93A007675BA /* PluckUpCourageEveryDay */,
+				D4A5193C27C3E93B007675BA /* PluckUpCourageEveryDayTests */,
+				D4A5194627C3E93B007675BA /* PluckUpCourageEveryDayUITests */,
+				D4A5192127C3E93A007675BA /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D4A5192127C3E93A007675BA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D4A5192027C3E93A007675BA /* PluckUpCourageEveryDay.app */,
+				D4A5193927C3E93B007675BA /* PluckUpCourageEveryDayTests.xctest */,
+				D4A5194327C3E93B007675BA /* PluckUpCourageEveryDayUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D4A5192227C3E93A007675BA /* PluckUpCourageEveryDay */ = {
+			isa = PBXGroup;
+			children = (
+				D4A5192327C3E93A007675BA /* AppDelegate.swift */,
+				D4A5192527C3E93A007675BA /* SceneDelegate.swift */,
+				D4A5192727C3E93A007675BA /* ViewController.swift */,
+				D4A5192927C3E93A007675BA /* Main.storyboard */,
+				D4A5192F27C3E93B007675BA /* Assets.xcassets */,
+				D4A5193127C3E93B007675BA /* LaunchScreen.storyboard */,
+				D4A5193427C3E93B007675BA /* Info.plist */,
+				D4A5192C27C3E93A007675BA /* PluckUpCourageEveryDay.xcdatamodeld */,
+			);
+			path = PluckUpCourageEveryDay;
+			sourceTree = "<group>";
+		};
+		D4A5193C27C3E93B007675BA /* PluckUpCourageEveryDayTests */ = {
+			isa = PBXGroup;
+			children = (
+				D4A5193D27C3E93B007675BA /* PluckUpCourageEveryDayTests.swift */,
+			);
+			path = PluckUpCourageEveryDayTests;
+			sourceTree = "<group>";
+		};
+		D4A5194627C3E93B007675BA /* PluckUpCourageEveryDayUITests */ = {
+			isa = PBXGroup;
+			children = (
+				D4A5194727C3E93B007675BA /* PluckUpCourageEveryDayUITests.swift */,
+				D4A5194927C3E93B007675BA /* PluckUpCourageEveryDayUITestsLaunchTests.swift */,
+			);
+			path = PluckUpCourageEveryDayUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D4A5191F27C3E93A007675BA /* PluckUpCourageEveryDay */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D4A5194D27C3E93B007675BA /* Build configuration list for PBXNativeTarget "PluckUpCourageEveryDay" */;
+			buildPhases = (
+				D4A5191C27C3E93A007675BA /* Sources */,
+				D4A5191D27C3E93A007675BA /* Frameworks */,
+				D4A5191E27C3E93A007675BA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PluckUpCourageEveryDay;
+			productName = PluckUpCourageEveryDay;
+			productReference = D4A5192027C3E93A007675BA /* PluckUpCourageEveryDay.app */;
+			productType = "com.apple.product-type.application";
+		};
+		D4A5193827C3E93B007675BA /* PluckUpCourageEveryDayTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D4A5195027C3E93B007675BA /* Build configuration list for PBXNativeTarget "PluckUpCourageEveryDayTests" */;
+			buildPhases = (
+				D4A5193527C3E93B007675BA /* Sources */,
+				D4A5193627C3E93B007675BA /* Frameworks */,
+				D4A5193727C3E93B007675BA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D4A5193B27C3E93B007675BA /* PBXTargetDependency */,
+			);
+			name = PluckUpCourageEveryDayTests;
+			productName = PluckUpCourageEveryDayTests;
+			productReference = D4A5193927C3E93B007675BA /* PluckUpCourageEveryDayTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		D4A5194227C3E93B007675BA /* PluckUpCourageEveryDayUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D4A5195327C3E93B007675BA /* Build configuration list for PBXNativeTarget "PluckUpCourageEveryDayUITests" */;
+			buildPhases = (
+				D4A5193F27C3E93B007675BA /* Sources */,
+				D4A5194027C3E93B007675BA /* Frameworks */,
+				D4A5194127C3E93B007675BA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D4A5194527C3E93B007675BA /* PBXTargetDependency */,
+			);
+			name = PluckUpCourageEveryDayUITests;
+			productName = PluckUpCourageEveryDayUITests;
+			productReference = D4A5194327C3E93B007675BA /* PluckUpCourageEveryDayUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D4A5191827C3E93A007675BA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1300;
+				LastUpgradeCheck = 1300;
+				TargetAttributes = {
+					D4A5191F27C3E93A007675BA = {
+						CreatedOnToolsVersion = 13.0;
+					};
+					D4A5193827C3E93B007675BA = {
+						CreatedOnToolsVersion = 13.0;
+						TestTargetID = D4A5191F27C3E93A007675BA;
+					};
+					D4A5194227C3E93B007675BA = {
+						CreatedOnToolsVersion = 13.0;
+						TestTargetID = D4A5191F27C3E93A007675BA;
+					};
+				};
+			};
+			buildConfigurationList = D4A5191B27C3E93A007675BA /* Build configuration list for PBXProject "PluckUpCourageEveryDay" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D4A5191727C3E93A007675BA;
+			productRefGroup = D4A5192127C3E93A007675BA /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D4A5191F27C3E93A007675BA /* PluckUpCourageEveryDay */,
+				D4A5193827C3E93B007675BA /* PluckUpCourageEveryDayTests */,
+				D4A5194227C3E93B007675BA /* PluckUpCourageEveryDayUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D4A5191E27C3E93A007675BA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D4A5193327C3E93B007675BA /* LaunchScreen.storyboard in Resources */,
+				D4A5193027C3E93B007675BA /* Assets.xcassets in Resources */,
+				D4A5192B27C3E93A007675BA /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D4A5193727C3E93B007675BA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D4A5194127C3E93B007675BA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D4A5191C27C3E93A007675BA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D4A5192827C3E93A007675BA /* ViewController.swift in Sources */,
+				D4A5192427C3E93A007675BA /* AppDelegate.swift in Sources */,
+				D4A5192E27C3E93A007675BA /* PluckUpCourageEveryDay.xcdatamodeld in Sources */,
+				D4A5192627C3E93A007675BA /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D4A5193527C3E93B007675BA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D4A5193E27C3E93B007675BA /* PluckUpCourageEveryDayTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D4A5193F27C3E93B007675BA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D4A5194827C3E93B007675BA /* PluckUpCourageEveryDayUITests.swift in Sources */,
+				D4A5194A27C3E93B007675BA /* PluckUpCourageEveryDayUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		D4A5193B27C3E93B007675BA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D4A5191F27C3E93A007675BA /* PluckUpCourageEveryDay */;
+			targetProxy = D4A5193A27C3E93B007675BA /* PBXContainerItemProxy */;
+		};
+		D4A5194527C3E93B007675BA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D4A5191F27C3E93A007675BA /* PluckUpCourageEveryDay */;
+			targetProxy = D4A5194427C3E93B007675BA /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		D4A5192927C3E93A007675BA /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D4A5192A27C3E93A007675BA /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		D4A5193127C3E93B007675BA /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D4A5193227C3E93B007675BA /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D4A5194B27C3E93B007675BA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		D4A5194C27C3E93B007675BA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D4A5194E27C3E93B007675BA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 9VSHL9N7G5;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = PluckUpCourageEveryDay/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = io.joey.PluckUpCourageEveryDay;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		D4A5194F27C3E93B007675BA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 9VSHL9N7G5;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = PluckUpCourageEveryDay/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = io.joey.PluckUpCourageEveryDay;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		D4A5195127C3E93B007675BA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 9VSHL9N7G5;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = io.joey.PluckUpCourageEveryDayTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PluckUpCourageEveryDay.app/PluckUpCourageEveryDay";
+			};
+			name = Debug;
+		};
+		D4A5195227C3E93B007675BA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 9VSHL9N7G5;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = io.joey.PluckUpCourageEveryDayTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PluckUpCourageEveryDay.app/PluckUpCourageEveryDay";
+			};
+			name = Release;
+		};
+		D4A5195427C3E93B007675BA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 9VSHL9N7G5;
+				GENERATE_INFOPLIST_FILE = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = io.joey.PluckUpCourageEveryDayUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = PluckUpCourageEveryDay;
+			};
+			name = Debug;
+		};
+		D4A5195527C3E93B007675BA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 9VSHL9N7G5;
+				GENERATE_INFOPLIST_FILE = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = io.joey.PluckUpCourageEveryDayUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = PluckUpCourageEveryDay;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D4A5191B27C3E93A007675BA /* Build configuration list for PBXProject "PluckUpCourageEveryDay" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D4A5194B27C3E93B007675BA /* Debug */,
+				D4A5194C27C3E93B007675BA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D4A5194D27C3E93B007675BA /* Build configuration list for PBXNativeTarget "PluckUpCourageEveryDay" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D4A5194E27C3E93B007675BA /* Debug */,
+				D4A5194F27C3E93B007675BA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D4A5195027C3E93B007675BA /* Build configuration list for PBXNativeTarget "PluckUpCourageEveryDayTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D4A5195127C3E93B007675BA /* Debug */,
+				D4A5195227C3E93B007675BA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D4A5195327C3E93B007675BA /* Build configuration list for PBXNativeTarget "PluckUpCourageEveryDayUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D4A5195427C3E93B007675BA /* Debug */,
+				D4A5195527C3E93B007675BA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		D4A5192C27C3E93A007675BA /* PluckUpCourageEveryDay.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				D4A5192D27C3E93A007675BA /* PluckUpCourageEveryDay.xcdatamodel */,
+			);
+			currentVersion = D4A5192D27C3E93A007675BA /* PluckUpCourageEveryDay.xcdatamodel */;
+			path = PluckUpCourageEveryDay.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = D4A5191827C3E93A007675BA /* Project object */;
+}
